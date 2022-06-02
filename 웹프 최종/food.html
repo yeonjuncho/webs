@@ -1,0 +1,143 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<style>
+
+#header{height:100px;background:white;float:center;color:#001054;padding-left:30px;padding-top:0px; }
+#left{width:15%;height:450px;background:white;float:left;}
+#center{width:90%;height:600px;background:white;float:center}
+#right{width:15%;height:450px;background:white;float:right;}
+#footer{height:30px;background:white;float:center;}
+#kr{text-decoration="none";}
+
+</style>
+<script type="text/javascript">
+function changeImg(img){
+ var mapimg = document.getElementById('map');
+ mapimg.src = img;
+}
+function changeImg1(obj, img){
+ var mapimg1 = document.getElementById('map1');
+ mapimg1.src = img;
+}
+</script>
+</head>
+
+<img src="image/kr.png" width="100%" height="120" usemap="#map1">
+<map name="map1">
+  <area shape="rect" coords="15, 23, 134, 97" href="index.html" target="_self" />
+  <area shape="rect" coords="1201, 28, 1238, 74" href="index.html" target="_blank" />
+  <area shape="rect" coords="1239, 28, 1273, 74" href="japan.html" target="_blank" />
+  <area shape="rect" coords="1274, 28, 1311, 74" href="china.html" target="_blank" />
+</map>
+<!--왼쪽메뉴--------------------->
+<div id ="left">
+    <nav>
+         <ul class="menu">
+            <li type="none"><a href="about.html" textDecoration="none"><h2>ABOUT</h2></a></li>
+            <li type="none"><a href="food.html"><h2>SHOP</h2></a></li>
+            <br>
+            <li type="none"><a href="food.html">FOOD</a></li>
+            <li type="none"><a href="furniture.html" target="_self">FURNITURE</a></li>
+            <li type="none"><a href="daily.html" target="_self">DAILY</a></li>
+         </ul>
+    </nav>
+
+    <style>
+      nav{float:left;
+          width:160px;
+          background-color:white;
+               height:120%
+          }
+
+      h1{front-size:18px; padding:20px;}
+      .menu{}
+      .menu li{}
+
+      .menu li a{
+         text-decoration:none;
+      height:30px;
+      line-height:30px;
+      display:block;
+      padding:0px;
+      font-size:12px;
+      color:white;
+      }
+      .menu li a:hover {background-color:#D5D5D5; color:white;} //마우스를 올렸을 때 yellowgreen색으로 나옴
+    </style>
+
+</div>
+
+<!--------------------오른쪽메뉴--------------------->
+<div id ="right">
+
+    <aside>
+        <ul class="menu">
+          <li type="none"><a href="login1.html" textDecoration="none"><h2>ACCOUNT</h2></a></li>
+          <br>
+          <li type="none"><a href="login1.html">Log in</a></li>
+          <li type="none"><a href="joinus.html">Join us</a></li>
+          <li type="none"><a href="mypage.html">My Page</a></li>
+
+          <li type="none"><a href="cart.html">Cart</a></li>
+        </ul>
+    </aside>
+      <style>
+         aside{
+              float:right;
+              width:160px;
+              background-color:white;
+                   height:120%
+              }
+
+          h1{front-size:18px; padding:20px;}
+          .menu{}
+          .menu li{}
+
+          .menu li a{
+             text-decoration:none;
+          height:30px;
+          line-height:30px;
+          display:block;
+          padding:0px;
+          font-size:12px;
+          color:black;
+          }
+         .menu li a:hover {background-color:#D5D5D5; color:white;} //마우스를 올렸을 때 yellowgreen색으로 나옴
+      </style>
+</div>
+<div id ="center">
+ <center>
+  <div>
+
+<font size="2">Korean food&nbsp&nbsp&nbsp/&nbsp&nbsp&nbspChinese food&nbsp&nbsp&nbsp/&nbsp&nbsp&nbspWestern food</font><br>
+<br><Br>
+
+      <table width="70%">
+      <tr>
+      <td>
+      <div style="width: 300px; height: 300px;">
+        <img id="map" src="image/img11.jpg" width="300px" height="300px" border="0" usemap="#Map" href="상세.html">
+        <map name="Map">
+          <area shape="rect" coords="1px,1px,300px,300px"  onmouseover="changeImg('image/gambas.png')" onmouseout="changeImg('image/img11.jpg')" href="상세.html" target="_self">
+        </map>
+      </div>
+    <Br><font size="2">&nbsp감바스 알 하이요</font><br>&nbsp<font face="궁서">\</font></font>13.86<br><br></td>
+      <td><img src="image/2.png" width="300"height="300"><br><br><font size="2">&nbsp월남쌈(2인, 20ea)</font><br>&nbsp<font face="궁서">\</font>24.5<br><br></td>
+      <td><img src="image/3.png" width="300"height="300"><br><br><font size="2">&nbsp비프찹스테이크랩(2인)</font><br>&nbsp<font face="궁서">\</font>18.5<br><br></td>
+      </tr>
+      <tr>
+    <td><img src="image/4.png" width="300"height="300"><br><br><font size="2">&nbsp차돌박이 숙주볶음</font><br>&nbsp<font face="궁서">\</font>13.5<br><br></td>
+    <td><img src="image/5.png" width="300"height="300"><br><br><font size="2">&nbsp포크안심스테이크</font><br>&nbsp<font face="궁서">\</font>8.4<br><br></td>
+    <td><img src="image/6.png" width="300"height="300"><br><br><font size="2">&nbsp훈제오리무쌈</font><br>&nbsp<font face="궁서">\</font>14.9<br><br></td>
+    </tr>
+    <tr>
+              <td><img src="image/7.png" width="300"height="300"><font size="2">&nbsp<br><br>한우소고기버섯잡채</font><br>&nbsp<font face="궁서">\</font>21.4<br><br></td>
+              <td><img src="image/8.png" width="300"height="300"><font size="2">&nbsp<br><br>미니카프리제(12꼬지)</font><br>&nbsp<font face="궁서">\</font>12.6<br><br></td><td>
+              <img src="image/9.png" width="300"height="300"><font size="2">>&nbsp<br><br>한우조랭이궁중떡볶이</font><br>&nbsp<font face="궁서">\</font>16.8<br><br></td></tr>
+
+  </center>
+
+
+  </body>
+  </html>
